@@ -12,8 +12,8 @@ public class Calculo {
     Instant d06 = Instant.parse("2023-12-17T22:07:15Z");
 
     //diminuir os dias
-    LocalDate pastWeeLocalDate = d05.minusDays(7);
-    //adicionar os dias
-    LocalDate nextWeeLocalDate = d05.plusDays(7);
+    // LocalDate pastWeeLocalDate = d05.minusDays(7);
+    // //adicionar os dias
+    // LocalDate nextWeeLocalDate = d05.plusDays(7);
 
 }

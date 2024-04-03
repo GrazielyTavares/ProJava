@@ -17,7 +17,7 @@ public class aula_condicional {
 		System.out.println("Lado c:");
 		c = d.nextDouble();
 		
-		if(a < (b+c) && b < (a+c) && c < (a+b)) {
+		if(a < (b+c) || b < (a+c) || c < (a+b)) {
 			System.out.println("FOII");
 		}else {
 			System.out.println("NÃO FOI");
